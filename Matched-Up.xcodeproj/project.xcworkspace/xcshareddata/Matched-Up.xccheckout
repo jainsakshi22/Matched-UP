@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F462A4FD-8B19-4A94-B691-B46D45B5CFF0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Matched-Up</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCC38887348D0478F3BAF6C79B733B17C4D78FB4</key>
+		<string>github.com:jainsakshi22/Matched-Up.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Matched-Up.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCC38887348D0478F3BAF6C79B733B17C4D78FB4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jainsakshi22/Matched-Up.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCC38887348D0478F3BAF6C79B733B17C4D78FB4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCC38887348D0478F3BAF6C79B733B17C4D78FB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Matched-Up</string>
+		</dict>
+	</array>
+</dict>
+</plist>

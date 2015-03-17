@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53D5086E1AB805FD00F851B5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5086D1AB805FD00F851B5 /* LoginViewController.m */; };
 		53EBF61D1AB7614100C805D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EBF61C1AB7614100C805D5 /* main.m */; };
 		53EBF6201AB7614100C805D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EBF61F1AB7614100C805D5 /* AppDelegate.m */; };
 		53EBF6231AB7614100C805D5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EBF6221AB7614100C805D5 /* FirstViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53D5086C1AB805FD00F851B5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "Matched-Up/LoginViewController.h"; sourceTree = "<group>"; };
+		53D5086D1AB805FD00F851B5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "Matched-Up/LoginViewController.m"; sourceTree = "<group>"; };
 		53EBF6171AB7614100C805D5 /* Matched-Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matched-Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EBF61B1AB7614100C805D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53EBF61C1AB7614100C805D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53D508701AB806D400F851B5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				53D5086C1AB805FD00F851B5 /* LoginViewController.h */,
+				53D5086D1AB805FD00F851B5 /* LoginViewController.m */,
+			);
+			name = Login;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		53EBF60E1AB7614100C805D5 = {
 			isa = PBXGroup;
 			children = (
@@ -86,11 +99,12 @@
 			children = (
 				53EBF61E1AB7614100C805D5 /* AppDelegate.h */,
 				53EBF61F1AB7614100C805D5 /* AppDelegate.m */,
+				53EBF6271AB7614100C805D5 /* Main.storyboard */,
+				53D508701AB806D400F851B5 /* Login */,
 				53EBF6211AB7614100C805D5 /* FirstViewController.h */,
 				53EBF6221AB7614100C805D5 /* FirstViewController.m */,
 				53EBF6241AB7614100C805D5 /* SecondViewController.h */,
 				53EBF6251AB7614100C805D5 /* SecondViewController.m */,
-				53EBF6271AB7614100C805D5 /* Main.storyboard */,
 				53EBF62A1AB7614100C805D5 /* Images.xcassets */,
 				53EBF62C1AB7614100C805D5 /* LaunchScreen.xib */,
 				53EBF61A1AB7614100C805D5 /* Supporting Files */,
@@ -228,6 +242,7 @@
 				53EBF6201AB7614100C805D5 /* AppDelegate.m in Sources */,
 				53EBF6231AB7614100C805D5 /* FirstViewController.m in Sources */,
 				53EBF61D1AB7614100C805D5 /* main.m in Sources */,
+				53D5086E1AB805FD00F851B5 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +433,7 @@
 				53EBF63F1AB7614100C805D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53EBF6401AB7614100C805D5 /* Build configuration list for PBXNativeTarget "Matched-UpTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +442,7 @@
 				53EBF6421AB7614100C805D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -229,6 +229,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 53EBF60E1AB7614100C805D5;
 			productRefGroup = 53EBF6181AB7614100C805D5 /* Products */;
@@ -426,6 +427,10 @@
 			baseConfigurationReference = 0EDE7537B0E4588FBA2A28AB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sakshi/Desktop/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/sakshi/projects/Matched-Up/Matched-Up.pch";
 				INFOPLIST_FILE = "Matched-Up/Info.plist";
@@ -439,6 +444,10 @@
 			baseConfigurationReference = 5BD70759D8DB6870C1B8A519 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sakshi/Desktop/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/sakshi/projects/Matched-Up/Matched-Up.pch";
 				INFOPLIST_FILE = "Matched-Up/Info.plist";

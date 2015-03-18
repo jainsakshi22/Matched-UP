@@ -14,5 +14,7 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import <Parse/Parse.h>
 #import <FacebookSDK/FacebookSDK.h>
+#import <util.h>
+#import <PFFacebookUtils.h>
 
 #endif

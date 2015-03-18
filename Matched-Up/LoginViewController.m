@@ -78,12 +78,16 @@
     FBRequest *request = [FBRequest requestForMe];
     
     [request startWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
-       // NSLog(@"%@",result);
-        //handle response
+        NSLog(@"%@",result);
+        //Handle response
       if (!error)
       {
-        //Parse the data received
           NSDictionary *userDictionary = (NSDictionary *)result;
+          //Create URL
+          NSString *facebookID = userDictionary[@"id"];
+          NSURL *pictureURL = [NSURL URLWithString:[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=large&return_ssl_resources=1",facebookID]];
+          
+        //Parse the data received
           NSMutableDictionary *userProfile = [[NSMutableDictionary alloc] initWithCapacity:8];
           if (userDictionary[@"name"])
           {
@@ -108,6 +112,10 @@
           if (userDictionary[@"interested_in"])
           {
               userProfile[kccUserProfileInterestedInKey] = userDictionary[@"interested_in"];
+          }
+          if ([pictureURL absoluteString])
+          {
+              userProfile[kccUserProfilePictureURL] = [pictureURL absoluteString];
           }
           
           [[PFUser currentUser] setObject:userProfile forKey:kCCCUserProfileKey];

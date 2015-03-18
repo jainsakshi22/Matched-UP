@@ -11,6 +11,8 @@
 
 @interface CCConstants : NSObject
 
+#pragma mark - User Class
+
 extern NSString *const kCCCUserProfileKey;
 extern NSString *const kCCUserProfileNameKey;
 extern NSString *const kccUserProfileFirstNameKey;
@@ -18,5 +20,12 @@ extern NSString *const kccUserProfileLocationKey;
 extern NSString *const kccUserProfileGenderKey;
 extern NSString *const kccUserProfileBirthdayKey;
 extern NSString *const kccUserProfileInterestedInKey;
+extern NSString *const kccUserProfilePictureURL;
+
+#pragma mark - Photo Class
+
+extern NSString *const kCCCPhotoClassKey;
+extern NSString *const kCCCPhotoUserKey;
+extern NSString *const kCCCPhotoPictureKey;
 
 @end

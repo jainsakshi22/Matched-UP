@@ -78,6 +78,7 @@
     FBRequest *request = [FBRequest requestForMe];
     
     [request startWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
+       // NSLog(@"%@",result);
         //handle response
       if (!error)
       {
@@ -86,30 +87,30 @@
           NSMutableDictionary *userProfile = [[NSMutableDictionary alloc] initWithCapacity:8];
           if (userDictionary[@"name"])
           {
-              userProfile[@"name"] = userDictionary[@"name"];
+              userProfile[kCCUserProfileNameKey] = userDictionary[@"name"];
           }
           if (userDictionary[@"first_name"])
           {
-              userProfile[@"first_name"] = userDictionary[@"first_name"];
+              userProfile[kccUserProfileFirstNameKey] = userDictionary[@"first_name"];
           }
           if (userDictionary[@"location"][@"name"])
           {
-              userProfile[@"location"] = userDictionary[@"location"][@"name"];
+              userProfile[kccUserProfileLocationKey] = userDictionary[@"location"][@"name"];
           }
           if (userDictionary[@"gender"])
           {
-              userProfile[@"gender"] = userDictionary[@"gender"];
+              userProfile[kccUserProfileGenderKey] = userDictionary[@"gender"];
           }
           if (userDictionary[@"birthday"])
           {
-              userProfile[@"birthday"] = userDictionary[@"birthday"];
+              userProfile[kccUserProfileBirthdayKey] = userDictionary[@"birthday"];
           }
           if (userDictionary[@"interested_in"])
           {
-              userProfile[@"interested_in"] = userDictionary[@"interested_in"];
+              userProfile[kccUserProfileInterestedInKey] = userDictionary[@"interested_in"];
           }
           
-          [[PFUser currentUser] setObject:userProfile forKey:@"profile"];
+          [[PFUser currentUser] setObject:userProfile forKey:kCCCUserProfileKey];
           [[PFUser currentUser] saveInBackground];
       }
         else

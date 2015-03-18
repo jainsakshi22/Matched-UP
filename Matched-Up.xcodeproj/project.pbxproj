@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530991231ABA0DB900706DDC /* CCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 530991221ABA0DB900706DDC /* CCConstants.m */; };
 		53D5086E1AB805FD00F851B5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5086D1AB805FD00F851B5 /* LoginViewController.m */; };
 		53EBF61D1AB7614100C805D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EBF61C1AB7614100C805D5 /* main.m */; };
 		53EBF6201AB7614100C805D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EBF61F1AB7614100C805D5 /* AppDelegate.m */; };
@@ -31,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		0EDE7537B0E4588FBA2A28AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		530991211ABA0DB900706DDC /* CCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCConstants.h; path = ../CCConstants.h; sourceTree = "<group>"; };
+		530991221ABA0DB900706DDC /* CCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCConstants.m; path = ../CCConstants.m; sourceTree = "<group>"; };
 		53D5086C1AB805FD00F851B5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "Matched-Up/LoginViewController.h"; sourceTree = "<group>"; };
 		53D5086D1AB805FD00F851B5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "Matched-Up/LoginViewController.m"; sourceTree = "<group>"; };
 		53D508711AB80EEB00F851B5 /* Matched-Up.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matched-Up.pch"; sourceTree = SOURCE_ROOT; };
@@ -132,6 +135,8 @@
 		53EBF61A1AB7614100C805D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				530991211ABA0DB900706DDC /* CCConstants.h */,
+				530991221ABA0DB900706DDC /* CCConstants.m */,
 				53EBF61B1AB7614100C805D5 /* Info.plist */,
 				53D508711AB80EEB00F851B5 /* Matched-Up.pch */,
 				53EBF61C1AB7614100C805D5 /* main.m */,
@@ -301,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53EBF6261AB7614100C805D5 /* SecondViewController.m in Sources */,
+				530991231ABA0DB900706DDC /* CCConstants.m in Sources */,
 				53EBF6201AB7614100C805D5 /* AppDelegate.m in Sources */,
 				53EBF6231AB7614100C805D5 /* FirstViewController.m in Sources */,
 				53EBF61D1AB7614100C805D5 /* main.m in Sources */,

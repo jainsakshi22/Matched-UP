@@ -16,5 +16,6 @@
 #import <FacebookSDK/FacebookSDK.h>
 #import <util.h>
 #import <PFFacebookUtils.h>
+#import "CCConstants.h"
 
 #endif
